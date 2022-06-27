@@ -16,9 +16,9 @@ public class SQRServiceTest {
 //    })
     @CsvFileSource(files = "src/test/resources/sqr.csv")
     public  void testLimited(int expected, int x, int y) {
-        ServiceCalculate service = new ServiceCalculate();
+        SQRService service = new SQRService();
 
-        int actual = service.SQRService(x, y);
+        int actual = service.ServiceCalculate(x, y);
         Assertions.assertEquals(expected, actual);
     }
 }

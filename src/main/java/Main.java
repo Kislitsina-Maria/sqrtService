@@ -1,7 +1,7 @@
-import ru.netology.sqr.ServiceCalculate;
+import ru.netology.sqr.SQRService;
 public class Main {
 
     public static void main(String[] args) {
-        ServiceCalculate service = new ServiceCalculate();
+        SQRService service = new SQRService();
     }
 }
